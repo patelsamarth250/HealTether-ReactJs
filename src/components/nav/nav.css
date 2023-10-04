@@ -1,0 +1,80 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    display: inline;
+    background-color: white;
+    padding: 0.2rem;
+    margin: auto;
+}
+
+.active {
+    color: red;
+}
+
+.nav__logo a{
+    float: left;
+    padding: 0.2rem 3rem 0.2rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0rem;
+}
+
+.nav__logo-img, .nav__logo-title{
+    padding: 0px;
+    border: 0px;
+    display: block;
+    margin: auto;
+    font-weight: 700;
+    font-size: large;
+}
+.nav__logo-title{
+    padding: 0.8rem;
+}
+
+.nav__contents {
+    /* position: relative; */
+    display: block;
+    float: right;
+    text-align: center;
+    margin: auto;
+}
+
+.nav__content,.nav__content-button1,.nav__content-button2 {
+    display: block;
+    float: left;
+    padding: 0.8rem;
+    margin: auto;
+}
+
+.nav__content a, .nav__content-button1 a {
+    color: black;
+}
+
+.nav__content-button{
+    margin: 0px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem ;
+    padding-bottom: 0.2rem;
+}
+
+.colorit{
+    background-color: #009394;
+}
+.colorit a{
+    color: white;
+}
+.nav__logo-title{
+    color: #009394;
+}
+
+.nav__content{
+    padding: 1rem;
+}
+
+.active {
+    border-bottom: 3px solid black;
+    font-weight: bolder;
+}

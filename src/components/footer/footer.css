@@ -1,0 +1,118 @@
+.footer-main{
+    position: relative;
+    /* top: 10%; */
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 3fr;
+    background-color: #202741;
+    color: white;
+    padding: 5rem;
+}
+
+.footer-main ul, a {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-part1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer-part1-title{
+    display: flex;
+    flex-direction: row;
+    color: #009394;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-part1-title p {
+    margin:auto 0.2rem;
+}
+
+.footer-part1-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.footer-part1-contact a {
+    color: #009394;
+}
+
+.footer-part1-apps {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    column-gap: 0rem;
+    /* text-align: left; */
+}
+
+.footer-google-play img, .footer-apple-store img{
+    width: 7rem;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.footer-apple-store img {
+    height: 100%;
+}
+
+.footer-apple-store{
+    height: 70%;
+    margin: auto;
+}
+
+.footer-part1-copyright{
+    /* margin-top: 1rem; */
+    font-size: small;
+    color: rgb(175, 170, 170);
+}
+
+/* ------SITEMAP--------- */
+.footer-part2 h4{
+    color: #009394;
+    font-weight: 500;
+}
+
+.footer-part2 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-part2 li {
+    margin-top: 0.3rem;
+}
+
+/* ------Part-3 footer------- */
+.footer-part3 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.footer-part3 li {
+    margin-top: 0.3rem;
+}
+
+/* ---------Part-4 footer------- */
+
+.footer-part4 h4{
+    color: #009394;
+    font-weight: 500;
+}
+
+.footer-part4 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-part4 li {
+    margin-top: 1rem;
+}
